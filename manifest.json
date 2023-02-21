@@ -1,0 +1,17 @@
+{
+    "lang": "en-us",
+    "name": "Three player Tic Tac Toe",
+    "short_name": "3P TTT",
+    "description": "Simple 3 player Tic Tac Toe game",
+    "start_url": "/",
+    "background_color": "#FFFFFF",
+    "theme_color": "#FFFFFF",
+    "orientation": "any",
+    "display": "standalone",
+    "icons": [
+        {
+            "src": "/icon512.png",
+            "sizes": "512x512"
+        }
+    ]
+}
