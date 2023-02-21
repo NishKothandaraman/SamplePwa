@@ -32,5 +32,10 @@
     <div data-winning-message-text></div>
     <button id="restartButton">Restart</button>
   </div>
+  <script>
+    if('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('/sw.js', { scope: '/' });
+    }
+  </script>
 </body>
 </html>
