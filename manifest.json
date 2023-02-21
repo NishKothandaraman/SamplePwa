@@ -1,16 +1,16 @@
 {
     "background_color": "#ffffff",
-    "description": "Sample PWA application",
+    "description": "Three player tic tac toe game",
     "dir": "ltr",
     "display": "standalone",
-    "name": "nish316.azurewebsites",
+    "name": "Three Player Tic Tac Toe",
     "orientation": "any",
     "scope": "/",
-    "short_name": "nish316.azurewebsites",
+    "short_name": "ThreeP TTT",
     "start_url": "/",
     "theme_color": "#ffffff",
     "categories": [
-      "games"
+      "Strategy"
     ],
     "screenshots": [
       {
