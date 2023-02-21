@@ -1,0 +1,11 @@
+{
+  "$schema": "https://aka.ms/azure/static-web-apps-cli/schema",
+  "configurations": {
+    "sample-pwa": {
+      "appLocation": ".",
+      "outputLocation": ".",
+      "appName": "sample-pwa",
+      "resourceGroup": "sample-pwa-rg"
+    }
+  }
+}
