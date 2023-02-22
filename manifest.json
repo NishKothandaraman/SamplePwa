@@ -7,7 +7,7 @@
     "orientation": "any",
     "scope": "/",
     "short_name": "ThreeP TTT",
-    "start_url": "https://nish316.azurewebsites.net/",
+    "start_url": "/index.html",
     "theme_color": "#ffffff",
     "categories": [
       "Strategy"
