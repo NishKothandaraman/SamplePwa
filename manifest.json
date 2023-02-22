@@ -6,8 +6,8 @@
     "name": "Three Player Tic Tac Toe",
     "orientation": "any",
     "scope": "/",
-    "short_name": "ThreeP TTT",
-    "start_url": "/index.html",
+    "short_name": "3 Player TTT",
+    "start_url": "/",
     "theme_color": "#ffffff",
     "categories": [
       "Strategy"
