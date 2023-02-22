@@ -104,9 +104,11 @@ function swapTurns() {
 }
 
 function setBoardHoverClass() {
-  board.classList.remove(X_CLASS)
-  board.classList.remove(CIRCLE_CLASS)
-  board.classList.remove(TRIANGLE_CLASS)
+  if (board.classList != null) {
+    board.classList.remove(X_CLASS)
+    board.classList.remove(CIRCLE_CLASS)
+    board.classList.remove(TRIANGLE_CLASS)
+  }
   if (circleTurn && !triangleTurn) {
     board.classList.add(CIRCLE_CLASS)
   } else if (triangleTurn) {
