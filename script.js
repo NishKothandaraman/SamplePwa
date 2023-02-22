@@ -104,7 +104,7 @@ function swapTurns() {
 }
 
 function setBoardHoverClass() {
-  if (board.classList != null) {
+  if (board != null) {
     board.classList.remove(X_CLASS)
     board.classList.remove(CIRCLE_CLASS)
     board.classList.remove(TRIANGLE_CLASS)
