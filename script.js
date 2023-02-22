@@ -114,7 +114,9 @@ function setBoardHoverClass() {
   } else if (triangleTurn) {
     board.classList.add(TRIANGLE_CLASS)
   } else {
-    board.classList.add(X_CLASS)
+    if (board != null) {
+      board.classList.add(X_CLASS)
+    }
   }
 }
 
