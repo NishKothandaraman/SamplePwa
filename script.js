@@ -39,9 +39,7 @@ function startGame() {
     cell.addEventListener('click', handleClick, { once: true })
   })
   setBoardHoverClass()
-  if (winningMessageElement != null) {
-    winningMessageElement.classList.remove('show')
-  }
+  winningMessageElement.classList.remove('show')
 }
 
 function handleClick(e) {
@@ -106,19 +104,15 @@ function swapTurns() {
 }
 
 function setBoardHoverClass() {
-  if (board != null) {
-    board.classList.remove(X_CLASS)
-    board.classList.remove(CIRCLE_CLASS)
-    board.classList.remove(TRIANGLE_CLASS)
-  }
+  board.classList.remove(X_CLASS)
+  board.classList.remove(CIRCLE_CLASS)
+  board.classList.remove(TRIANGLE_CLASS)
   if (circleTurn && !triangleTurn) {
     board.classList.add(CIRCLE_CLASS)
   } else if (triangleTurn) {
     board.classList.add(TRIANGLE_CLASS)
   } else {
-    if (board != null) {
-      board.classList.add(X_CLASS)
-    }
+    board.classList.add(X_CLASS)
   }
 }
 
