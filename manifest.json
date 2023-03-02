@@ -41,6 +41,11 @@
         "sizes": "192x192",
         "type": "image/png",
         "purpose": "any"
+      },
+      {
+        "src": "icon468.png",
+        "sizes": "468x384",
+        "type": "image/png"
       }
     ],
     "shortcuts": []
