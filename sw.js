@@ -1,3 +1,12 @@
+// const navHandler = createHandlerBoundToURL('/index.html');
+// const navigationRoute = new NavigationRoute(navHandler, {
+//   denylist: [
+//     new RegExp('^/images/'),
+//     new RegExp('^/static/'),
+//   ],
+// });
+// registerRoute(navigationRoute);
+
 const CACHE_NAME = `three-player-tic-tac-toe`;
 
 // Use the install event to pre-cache all initial resources.
