@@ -10,7 +10,7 @@
   
   body {
     margin: 0;
-    background-color: antiquewhite;
+    background-color: lightgreen;
   }
   
   .board {
@@ -104,7 +104,7 @@
   .board.circle .cell:not(.x):not(.circle):not(.triangle):hover::after {
     width: calc(var(--mark-size) * .6);
     height: calc(var(--mark-size) * .6);
-    background-color: antiquewhite;
+    background-color: lightgreen;
   }
 
   .cell.triangle::before,
@@ -117,7 +117,7 @@
   .board.triangle .cell:not(.x):not(.circle):not(.triangle):hover::after {
     width: calc(var(--square-mark-size) * .6);
     height: calc(var(--square-mark-size) * .6);
-    background-color: antiquewhite;
+    background-color: lightgreen;
     border-left: 5px solid transparent;
   }
   
